@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(218,218,218,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(107, 63, 7);
+    border: 1px solid none;
+    background-color: rgb(201, 200, 200);
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+}
+.topic{
+    width:auto;
+    margin:0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid none;
+    text-align: center;
+    gap: 5px;
+    font-size: larger;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+.form{
+    background-color: none;
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border-color: #aba5a5;
+}
+.pack{
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+    background-image: linear-gradient(rgba(88, 76, 76, 0.4)), url(./images/loan\ form.jpg);
+}
+.form_item{
+    margin-bottom: 10px;
+}
+.form_item input,
+.form_item select,
+.form_item textarea{
+    width: 100%;
+    padding: 12px 5px;
+    border: 1px solid rgb(253, 192, 192);
+    outline: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.form_btn button{
+    padding: 10px 20px;
+    background-color:  rgb(201, 200, 200);
+    flex-direction: column;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 10%;  
+}
+.notice_a{
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(218,218,218,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: rgb(107, 63, 7);
+    border: 1px solid none;
+    background-color: rgb(201, 200, 200);
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.notice {
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+    background-image: linear-gradient(rgba(88, 76, 76, 0.4)), url(./images/loan\ form.jpg);
+}
+.h_notice{
+    color: brown;
+    justify-self: center;
+    padding-top: 20px;
+}
+.sub_head{
+    padding-bottom: 8px;
+}
+.sub_notice{
+    color: rgb(183, 141, 141);
+    justify-self: center;
+}
+.notice_text {
+    width: 60%;
+    text-align:justify;
+    justify-self: center;
+    padding-bottom: 30px;
+}
+.front_form{
+    background-color: none;
+    display: grid;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border-color: #aba5a5;
+}
+.form_topic{
+    margin-bottom: 10px;
+}
+.form_topic input,
+.form_topic select,
+.form_topic textarea{
+    width: 100%;
+    padding: 12px 5px;
+    border: 1px solid rgb(211, 135, 135);
+    outline: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.button button{
+    padding: 10px 20px;
+    background-color: rgb(201, 200, 200);;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 10%;  
+}

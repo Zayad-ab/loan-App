@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Loan App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="pack">
+        <div class="header">
+        <h2>Loan App</h2>
+    </div>
+        <form class="form" id="creditForm">    
+        <div class="topic">
+            <h3>Bank Details</h3>
+        </div>
+        <div class="form_item">
+            <label>Total Annual Income (₦):</label>
+            <input type="number" id="annualIncome" required>
+        </div>    
+        <div class="form_item">
+            <label>Current Account Balance (₦):</label>
+            <input type="number" id="accountBalance" required>
+        </div>
+        <div class="form_item">
+            <label>Loan Amount Requested (₦):</label>
+            <input type="number" id="loanAmount" required>
+        </div>
+        <div class="form_item">
+            <label>Last Credit History:</label>
+            <input type="date" id="creditHistory" required>
+        </div>
+        <div class="form_item">
+            <label>Last Deposit Date:</label>
+            <input type="date" id="lastDeposit" required>
+        </div>
+        <div class="form_item">
+            <label>Last Loan Collection Date:</label>
+            <input type="date" id="lastLoan" required>
+        </div>
+        <div class="form_item">
+            <label>Loan Repayment Period:</label>
+            <input type="date" id="repaymentPeriod" required>
+        </div>
+        <div class="form_item">
+            <label>Account Type:</label>
+        <select id="accountType" required>
+            <option value=""></option>
+            <option value="current">Current</option>
+            <option value="savings">Savings</option>
+        </select>
+        </div>
+        <div class= "form_btn">
+            <button type="button" onclick="checkCredit()" id="btn">Apply Loan</button>
+        </div>
+    </form>
+    <div id="result"></div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
